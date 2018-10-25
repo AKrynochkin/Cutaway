@@ -1,0 +1,15 @@
+@import '../../styles/variables';
+
+.page-header {
+    position: relative;
+    padding: 0 5%;
+    height: 9rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 4rem;
+  // color: $white-color;
+}

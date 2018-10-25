@@ -1,0 +1,19 @@
+@import '../../styles/variables.scss';
+
+.nav-panel {
+  display: flex;
+  flex-direction: column;
+  width: 18%;
+  min-width: 200px;
+  padding: 1rem 3rem;
+  flex-shrink: 0;
+  padding-left: 6%;
+
+  &__link {
+    font-size: 2.1rem;
+    
+    &:hover {
+      color: $orange-color;
+    }
+  }
+}

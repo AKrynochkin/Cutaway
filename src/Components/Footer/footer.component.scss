@@ -1,0 +1,20 @@
+@import '../../styles/variables';
+
+.page-footer {
+    height: $footer-height;
+    background-color: $gray-color;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    .logo-title {
+        color: $danger-color;
+        font-weight: bold;
+        font-size: 16px;
+        letter-spacing: .5;
+        text-decoration: none;
+    }
+}
